@@ -16,3 +16,5 @@ git pull -- Descarga cambios + hace merge automático
 git merge -- compara historias de commits, encuentra ancestro común, combina cambios
 git branch -- Crea un puntero a un commit
 git init -- Ahí guarda: hashes, commits, historial, ramas
+
+fuentes: https://git-scm.com/docs
