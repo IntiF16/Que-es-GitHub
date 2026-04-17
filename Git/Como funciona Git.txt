@@ -11,3 +11,8 @@ git tiene diversos comandos para ejecutar:
 entre ellos estan el:
 git add -- lee el archivo, Calcula su hash, Lo guarda en la staging area
 git commit -- Crea un objeto commit con: hash propio, referencia al commit anterior, snapshot del proyecto, Lo guarda en .git
+git push -- Sube commits al repositorio remoto
+git pull -- Descarga cambios + hace merge automático
+git merge -- compara historias de commits, encuentra ancestro común, combina cambios
+git branch -- Crea un puntero a un commit
+git init -- Ahí guarda: hashes, commits, historial, ramas
