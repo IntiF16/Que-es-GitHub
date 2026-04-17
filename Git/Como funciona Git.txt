@@ -1,0 +1,13 @@
+Git es un sistema de control de versiones que guarda diferencias y referencias a versiones anteriores usando hashes
+Un hash es como una especie de codigo unico que se genera a partir de datos como un archivo, texto, es muy sensible a cambios: "Hola" y "hola"
+Git funciona como un sistema donde vas pasando cambios por etapas hasta guardarlos definitivamente
+
+Las 3 zonas claves:
+Working Directory → donde editás archivos
+Staging Area → donde preparás lo que querés guardar
+Repositorio (.git) → donde Git guarda todo (commits)
+
+git tiene diversos comandos para ejecutar: 
+entre ellos estan el:
+git add -- lee el archivo, Calcula su hash, Lo guarda en la staging area
+git commit -- Crea un objeto commit con: hash propio, referencia al commit anterior, snapshot del proyecto, Lo guarda en .git
