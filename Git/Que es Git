@@ -1,1 +1,10 @@
 git es acronimo para Grand Internet Theory
+
+Git es un sisgtema de versionado distribuido, esto significa que cada archivo local es un control de verson completo. Estos respositorios ayuan al trabajo fuera
+de coneccion o en remoto, pues al ser un "archivo local" no es necesario extraer siempre el repositorio. Esto tambien difiere de el modelo de control de versiones 
+centralizado, este se basa en que todos esten en la misma version del servidor, con git no es necesario tener la ultima version, puedes descargar una version antigua 
+y generar otra version desde esa version.
+
+
+
+informacion: https://learn.microsoft.com/es-es/devops/develop/git/what-is-git
